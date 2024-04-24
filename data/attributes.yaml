@@ -1,0 +1,22 @@
+# 一个滑雪场英文名的列表，主要用来顺序读取滑雪场矢量文件
+# 例：怀北国际滑雪场对应的矢量文件为HuaibeiTrack.shp, 英文名则为Huaibei
+# 如果后期手动加入滑雪场请及时更新该文件
+
+ski_en_names:
+  - Badaling # 八达岭滑雪场
+  - Gaoshan # 北京国家高山滑雪中心
+  - Huaibei # 怀北国际滑雪场
+  - Jingzhihu # 静之湖滑雪场
+  - Jundushan # 军都山滑雪场
+  - Lianhuashan # 莲花山滑雪场
+  - Nanshan # 南山滑雪场
+  - Qiaobo # 乔波滑雪场
+  - Shijinglong # 万科石京龙滑雪场
+  - Taiwu # 太舞滑雪小镇
+  - Wanlong # 万龙度假天堂
+  - Xishan # 西山滑雪场
+  - Xuedu # 雪都滑雪场
+  - Yunding # 密苑云顶乐园
+  - Yunfoshan # 云佛山滑雪场
+  - Yunju # 云居滑雪场
+  - Yuyang # 渔阳滑雪场

@@ -1,4 +1,4 @@
-from skiField import SkiField
+from bin.skiField import SkiField
 
 
 class SkiFields:

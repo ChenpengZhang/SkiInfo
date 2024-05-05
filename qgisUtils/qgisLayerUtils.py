@@ -11,11 +11,8 @@ def addMapLayer(layer: QgsMapLayer, mapCanvas: QgsMapCanvas, firstAddLayer=False
     if layer.isValid():
         if firstAddLayer:
             mapCanvas.setDestinationCrs(layer.crs())
-            mapCanvas.setExtent(layer.extent())
-        while PROJECT.mapLayersByName(layer.name()):
-            layer.setName(layer.name()+"_1")
         PROJECT.addMapLayer(layer)
-        layers = [layer] + [PROJECT.mapLayer(i) for i in PROJECT.mapLayers()]
+        layers = [PROJECT.mapLayer(i) for i in PROJECT.mapLayers()]
         mapCanvas.setLayers(layers)
         mapCanvas.refresh()
 
